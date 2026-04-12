@@ -3,7 +3,7 @@ import "./App.css";
 
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
-import Categories from "./components/categories/categories";
+import Categories from "./components/categories/Categories";
 import Box from "./components/boxs/Box";
 import Products from "./components/products/Products";
 import Bestsalles from "./components/bestsalles/Bestsalles";
