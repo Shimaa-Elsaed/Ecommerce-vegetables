@@ -5,7 +5,7 @@ import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Categories from "./components/categories/categories";
 import Box from "./components/boxs/Box";
-import Products from "./components/products/products";
+import Products from "./components/products/Products";
 import Bestsalles from "./components/bestsalles/Bestsalles";
 import Deals from "./components/deals/Deals";
 import StayHome from "./components/stay/StayHome";
