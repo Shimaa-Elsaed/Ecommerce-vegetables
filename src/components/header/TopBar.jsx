@@ -2,6 +2,36 @@ import React from "react";
 
 const TopBar = () => {
   return (
+    <div className="flex flex-col md:flex-row justify-between items-center px-4 py-2 bg-gray-100 text-center gap-2">
+      {/* Left */}
+      <div className="hidden md:flex gap-4 font-bold text-sm">
+        <span>About Us</span>
+        <span>My Account</span>
+        <span>Wish List</span>
+        <span>Order Tracking</span>
+      </div>
+
+      {/* Center */}
+      <p className="text-green-600 text-xs md:text-sm">
+        100% Secure delivery without contacting the courier
+      </p>
+
+      {/* Right */}
+      <div className="hidden md:flex gap-3 font-bold text-sm">
+        <span>Need help? Call Us:</span>
+        <span>+1800900122</span>
+        <span>English</span>
+      </div>
+    </div>
+  );
+};
+
+export default TopBar;
+/*
+import React from "react";
+
+const TopBar = () => {
+  return (
     <div className="flex justify-between items-center px-4 py-2 bg-gray-100">
       <div className="flex gap-4 font-bold text-sm">
         <span>About Us</span>
@@ -22,3 +52,7 @@ const TopBar = () => {
 };
 
 export default TopBar;
+
+
+
+*/

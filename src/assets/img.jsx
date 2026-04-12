@@ -41,11 +41,15 @@ import smallhero2 from "../assets/img/smhero2.png";
 import smallhero3 from "../assets/img/smhero3.png";
 //////////////////////////////////////////////////////
 import home from "../assets/img/home1.png";
+
 ///////////////////////////////////////////////////
 import hero from "../assets/img/hero.png";
 /////////////////////////////////////////////////////
 import banar from "../assets/img/baner1.png";
 /////////////////////////////////////////////////////////
+import bestsales from "../assets/img/bestsalles.png";
+////////////////////////////////////////////
+import home2 from "../assets/img/home2.png";
 export const categories = [
   cat1,
   cat2,
@@ -60,7 +64,7 @@ export const categories = [
 ];
 export const icons = [icon1, icon2, icon3, icon4, icon5];
 export const footer = [foot1, foot2, foot3];
-export const deals = [deals1, deals2, deals3, deals4];
+export const dealsImgs = [deals1, deals2, deals3, deals4];
 export const products = [
   prod1,
   prod2,
@@ -76,5 +80,9 @@ export const products = [
 export const smallheros = [smallhero1, smallhero2, smallhero3];
 
 export const homeimg = home;
+export const hometwo = home2;
+
+export const bestimgs = bestsales;
+
 export const heroimg = hero;
 export const banarimg = banar;
