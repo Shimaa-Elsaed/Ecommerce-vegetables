@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Button } from "../ui/button";
 import { FaMusic } from "react-icons/fa";
 import { HiMenu, HiX } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 const NavHeader = () => {
   const [open, setOpen] = useState(false);
@@ -30,8 +31,12 @@ const NavHeader = () => {
 
         {/* 💻 Desktop Menu */}
         <div className="hidden md:flex gap-6 font-medium">
-          <span className="hover:text-green-600 cursor-pointer">Home</span>
-          <span className="hover:text-green-600 cursor-pointer">About</span>
+          <Link to="/">
+            <span className="hover:text-green-600 cursor-pointer">Home</span>
+          </Link>
+          <Link to="/about">
+            <span className="hover:text-green-600 cursor-pointer">About</span>
+          </Link>
           <span className="hover:text-green-600 cursor-pointer">Shop</span>
           <span className="hover:text-green-600 cursor-pointer">Venders</span>
           <span className="hover:text-green-600 cursor-pointer">MegaMenue</span>

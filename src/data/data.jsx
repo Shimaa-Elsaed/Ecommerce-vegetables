@@ -242,25 +242,30 @@ export const icon = [
     img: icons[0],
     name: "Best prices & offers",
     desc: "Orders $50 or more",
+    type: "There are many variations of passages of Lorem Ipsum available, but the majority have suffer",
   },
   {
     img: icons[1],
     name: "Free delivery",
     desc: "24/7 amazing services",
+    type: "There are many variations of passages of Lorem Ipsum available, but the majority have suffer",
   },
   {
     img: icons[2],
     name: "Great daily deal",
     desc: "When you sign up",
+    type: "There are many variations of passages of Lorem Ipsum available, but the majority have suffer",
   },
   {
     img: icons[3],
     name: "Wide assortment",
     desc: "Mega Discounts",
+    type: "There are many variations of passages of Lorem Ipsum available, but the majority have suffer",
   },
   {
     img: icons[4],
     name: "Easy returns",
     desc: "Within 30 days",
+    type: "There are many variations of passages of Lorem Ipsum available, but the majority have suffer",
   },
 ];

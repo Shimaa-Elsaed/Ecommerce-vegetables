@@ -50,6 +50,34 @@ import banar from "../assets/img/baner1.png";
 import bestsales from "../assets/img/bestsalles.png";
 ////////////////////////////////////////////
 import home2 from "../assets/img/home2.png";
+///////////////////////////////////////////////////////
+import aboutwelcome from "../assets/img/aboutwelcome .png";
+import aboutwelcome1 from "../assets/img/aboutwelcome1.png";
+import aboutwelcome2 from "../assets/img/aboutwelcome2.png";
+import aboutwelcome3 from "../assets/img/aboutwelcome3.png";
+////////////////////////////////////////////////////////////////
+import aboutpartener from "../assets/img/aboutpartener.png";
+import aboutheader from "../assets/img/aboutheader.png";
+////////////////////////////////////////////////////////////
+import aboutteam1 from "../assets/img/aboutteam1.png";
+import aboutteam2 from "../assets/img/aboutteam2.png";
+
+////////////////////////////////////////////////////
+import aboutheade from "../assets/img/aboutheader.png";
+import aboutstay from "../assets/img/aboutstay.png";
+////////////////////////////////////////////////////
+export const stay = [aboutheade, aboutstay];
+export const team = [aboutteam1, aboutteam2];
+
+export const partener = [aboutpartener, aboutheader];
+
+export const welcomes = [
+  aboutwelcome,
+  aboutwelcome1,
+  aboutwelcome2,
+  aboutwelcome3,
+];
+
 export const categories = [
   cat1,
   cat2,
