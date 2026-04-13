@@ -14,10 +14,12 @@ const StayHome = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="absolute inset-0 bg-green-100/70"></div>
+        {/* overlay */}
+        <div className="absolute inset-0 bg-green-100/80"></div>
 
-        <div className="relative z-10 max-w-md py-16">
-          <h1 className="text-2xl md:text-3xl font-bold leading-snug">
+        {/* text */}
+        <div className="relative z-10 max-w-md w-full">
+          <h1 className="text-xl sm:text-2xl md:text-3xl font-bold leading-snug">
             Stay home & get your daily <br />
             needs from our shop
           </h1>
@@ -26,24 +28,24 @@ const StayHome = () => {
             Start Your Daily Shopping with Nest Mart
           </p>
 
-          {/* input */}
-          <div className="flex mt-5 bg-white rounded-full overflow-hidden shadow-md">
+          {/* 👇 input + button */}
+          <div className="flex mt-5 w-full bg-white rounded-full overflow-hidden shadow-md">
             <Input
               type="email"
               placeholder="Your email address"
-              className="border-none focus:ring-0"
+              className="flex-1 border-none focus:ring-0 px-4 py-2 text-sm"
             />
 
-            <Button className="bg-green-500 text-white rounded-none px-6">
+            <Button className="bg-green-500 hover:bg-green-600 text-white px-4 sm:px-6 rounded-none">
               Subscribe
             </Button>
           </div>
         </div>
 
-        {/* الصورة */}
+        {/* 👇 الصورة */}
         <img
           src={stay[1]}
-          className="relative z-10  w-50 md:w-64 mt-6 md:mt-0"
+          className="relative z-10 w-40 sm:w-52 md:w-64 mt-6 md:mt-0"
         />
       </div>
     </div>

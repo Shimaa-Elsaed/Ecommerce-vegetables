@@ -5,10 +5,12 @@ const Welcome = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 md:px-8 py-10">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        {/* 👇 الصورة الكبيرة */}
         <img
           src={welcomes[0]}
-          className="rounded-2xl w-full h-[450px] object-cover"
+          className="rounded-2xl w-full h-[300px] sm:h-[400px] md:h-[450px] object-cover"
         />
+
         <div className="space-y-4">
           <h1 className="text-2xl md:text-3xl font-bold">Welcome to Nest</h1>
 
@@ -31,12 +33,12 @@ const Welcome = () => {
           </p>
 
           {/* 👇 الصور الصغيرة */}
-          <div className="flex gap-3">
+          <div className="grid grid-cols-3 gap-3">
             {welcomes.slice(1).map((img, i) => (
               <img
                 key={i}
                 src={img}
-                className="w-[100px] h-[100px ] sm:w-[200px] h-[200px]  object-cover rounded-lg"
+                className="w-full h-[80px] sm:h-[100px] md:h-[120px] object-cover rounded-lg"
               />
             ))}
           </div>

@@ -1,4 +1,5 @@
-import React from "react";
+
+ import React from "react";
 import { partener } from "@/assets/img";
 
 const Partener = () => {
@@ -23,13 +24,13 @@ const Partener = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <img
           src={partener[0]}
-          className="rounded-2xl w-full h-[350px] object-cover"
+          className="rounded-2xl w-full h-[280px] sm:h-[320px] md:h-[350px] object-cover"
         />
 
         <div className="space-y-3">
           <h2 className="text-green-500 font-semibold">Our performance</h2>
 
-          <h1 className="text-2xl md:text-3xl font-bold">
+          <h1 className="text-2xl md:text-3xl font-bold leading-snug">
             Your Partner for <br />
             e-commerce grocery solution
           </h1>
@@ -50,11 +51,14 @@ const Partener = () => {
       </div>
 
       {/* 👇 3 كروت */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-center">
         {history.map((item, index) => (
-          <div key={index} className="p-4">
+          <div
+            key={index}
+            className="p-4 rounded-xl hover:shadow-md transition"
+          >
             <h2 className="font-bold text-lg mb-2">{item.name}</h2>
-            <p className="text-gray-500 text-sm">{item.desc}</p>
+            <p className="text-gray-500 text-sm leading-relaxed">{item.desc}</p>
           </div>
         ))}
       </div>
@@ -68,32 +72,34 @@ const Partener = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="absolute inset-0 bg-black/40"></div>
+        {/* overlay */}
+        <div className="absolute inset-0 bg-green-900/70"></div>
 
-        <div className="relative grid grid-cols-2 sm:grid-cols-5 text-center text-white py-20">
+        <div className="relative grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 text-center text-white py-12 md:py-16">
+          {/* نفس الكود بس الأرقام اتظبطت */}
           <div>
-            <h1 className="text-4xl font-bold">0+</h1>
-            <p>Glorious years</p>
+            <h1 className="text-2xl md:text-4xl font-bold">12+</h1>
+            <p className="text-sm">Glorious years</p>
           </div>
 
           <div>
-            <h1 className="text-4xl font-bold">0+</h1>
-            <p>Happy Clients</p>
+            <h1 className="text-2xl md:text-4xl font-bold">36+</h1>
+            <p className="text-sm">Happy Clients</p>
           </div>
 
           <div>
-            <h1 className="text-4xl font-bold">0+</h1>
-            <p>Projects Complete</p>
+            <h1 className="text-2xl md:text-4xl font-bold">58+</h1>
+            <p className="text-sm">Projects Complete</p>
           </div>
 
           <div>
-            <h1 className="text-4xl font-bold">0+</h1>
-            <p>Team advisor</p>
+            <h1 className="text-2xl md:text-4xl font-bold">24+</h1>
+            <p className="text-sm">Team advisor</p>
           </div>
 
           <div>
-            <h1 className="text-4xl font-bold">0+</h1>
-            <p>Product Sales</p>
+            <h1 className="text-2xl md:text-4xl font-bold">100+</h1>
+            <p className="text-sm">Product Sales</p>
           </div>
         </div>
       </div>
