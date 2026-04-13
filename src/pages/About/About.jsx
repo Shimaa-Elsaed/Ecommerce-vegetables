@@ -8,7 +8,7 @@ import StayHome from "./StayHome";
 
 const About = () => {
   return (
-    <div className="px-4 m-2">
+    <div className="px-2 m-2">
       <Welcome />
       <Provide />
       <Partener />
