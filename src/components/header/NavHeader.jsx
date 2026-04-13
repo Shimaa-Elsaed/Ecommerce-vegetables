@@ -58,8 +58,14 @@ const NavHeader = () => {
       {/* 📱 Mobile Menu (Dropdown) */}
       {open && (
         <div className="flex flex-col gap-3 mt-4 md:hidden font-medium">
-          <span className="hover:text-green-600 cursor-pointer">Home</span>
-          <span className="hover:text-green-600 cursor-pointer">About</span>
+          <Link to="/">
+            {" "}
+            <span className="hover:text-green-600 cursor-pointer">Home</span>
+          </Link>
+
+          <Link to="/about">
+            <span className="hover:text-green-600 cursor-pointer">About</span>
+          </Link>
           <span className="hover:text-green-600 cursor-pointer">Shop</span>
           <span className="hover:text-green-600 cursor-pointer">Venders</span>
           <span className="hover:text-green-600 cursor-pointer">MegaMenue</span>
