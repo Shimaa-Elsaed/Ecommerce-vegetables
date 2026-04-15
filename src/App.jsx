@@ -16,6 +16,8 @@ import TopSallings from "./components/topsallings/TopSallings";
 import Cart from "./pages/cart/Cart";
 import { Routes, Route } from "react-router-dom";
 import About from "./pages/About/About";
+import Contact from "./pages/contact/Contact";
+import Blog from "./pages/blog/Blog";
 
 function App() {
   // 👇 حفظ السلة
@@ -56,7 +58,9 @@ function App() {
           }
         />
         <Route path="/cart" element={<Cart cart={cart} setCart={setCart} />} />{" "}
-        <Route path="about" element={<About />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
     </div>
   );

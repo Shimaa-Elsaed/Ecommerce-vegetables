@@ -66,6 +66,34 @@ import aboutteam2 from "../assets/img/aboutteam2.png";
 import aboutheade from "../assets/img/aboutheader.png";
 import aboutstay from "../assets/img/aboutstay.png";
 ////////////////////////////////////////////////////
+import contact from "../assets/img/contact.png";
+///////////////////////////////////
+import blogteam1 from "../assets/img/blogteam1.png";
+import blogteam2 from "../assets/img/blogteam2.png";
+import blogteam3 from "../assets/img/blogteam3.png";
+import blogteam from "../assets/img/blogteam.png";
+/////////////////////////////////////////////////////////////
+import blogheader from "../assets/img/blogheader.png";
+////////////////////////////////////////////////////////////
+import bloghero from "../assets/img/bloghero.png";
+/////////////////////////////////////////////////////////
+import trend1 from "../assets/img/trend1.jpg"
+import trend2 from "../assets/img/trend2.jpg"
+import trend3 from "../assets/img/trend3.jpg"
+import trend4 from "../assets/img/trend4.jpg"
+import trend5 from "../assets/img/trend5.jpg"
+import trend6 from "../assets/img/trend6.jpg"
+///////////////////////////////////////////
+export const trends=[trend1,trend2,trend3,trend4,trend5,trend6]
+
+
+
+export const blogheaders = blogheader;
+export const blogheros = bloghero;
+
+export const blogteams = [blogteam1, blogteam2, blogteam3, blogteam];
+
+export const contacts = contact;
 export const stay = [aboutheade, aboutstay];
 export const team = [aboutteam1, aboutteam2];
 
