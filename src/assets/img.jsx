@@ -77,16 +77,46 @@ import blogheader from "../assets/img/blogheader.png";
 ////////////////////////////////////////////////////////////
 import bloghero from "../assets/img/bloghero.png";
 /////////////////////////////////////////////////////////
-import trend1 from "../assets/img/trend1.jpg"
-import trend2 from "../assets/img/trend2.jpg"
-import trend3 from "../assets/img/trend3.jpg"
-import trend4 from "../assets/img/trend4.jpg"
-import trend5 from "../assets/img/trend5.jpg"
-import trend6 from "../assets/img/trend6.jpg"
+import trend1 from "../assets/img/trend1.jpg";
+import trend2 from "../assets/img/trend2.jpg";
+import trend3 from "../assets/img/trend3.jpg";
+import trend4 from "../assets/img/trend4.jpg";
+import trend5 from "../assets/img/trend5.jpg";
+import trend6 from "../assets/img/trend6.jpg";
 ///////////////////////////////////////////
-export const trends=[trend1,trend2,trend3,trend4,trend5,trend6]
+import venders1 from "../assets/img/venders1.png";
+import venders2 from "../assets/img/venders2.png";
+import venders3 from "../assets/img/venders3.png";
+import venders4 from "../assets/img/venders4.png";
+import venders5 from "../assets/img/venders5.png";
+import venders6 from "../assets/img/venders6.png";
+import venders7 from "../assets/img/venders7.png";
+import venders8 from "../assets/img/venders8.png";
+import venders9 from "../assets/img/venders9.png";
+import venders10 from "../assets/img/venders10.png";
+import venders11 from "../assets/img/venders11.png";
+import venders12 from "../assets/img/venders12.png";
+import venders13 from "../assets/img/venders13.png";
+import venders14 from "../assets/img/venders14.png";
+///////////////////////////////////////////////////////////////
+export const venders = [
+  venders1,
+  venders2,
+  venders3,
+  venders4,
+  venders5,
+  venders6,
+  venders7,
+  venders8,
+  venders9,
+  venders10,
+  venders11,
+  venders12,
+  venders13,
+  venders14,
+];
 
-
+export const trends = [trend1, trend2, trend3, trend4, trend5, trend6];
 
 export const blogheaders = blogheader;
 export const blogheros = bloghero;

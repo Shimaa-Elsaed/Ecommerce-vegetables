@@ -18,6 +18,7 @@ import { Routes, Route } from "react-router-dom";
 import About from "./pages/About/About";
 import Contact from "./pages/contact/Contact";
 import Blog from "./pages/blog/Blog";
+import Venders from "./pages/venders/Venders";
 
 function App() {
   // 👇 حفظ السلة
@@ -61,6 +62,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/venders" element={<Venders />} />
       </Routes>
     </div>
   );
