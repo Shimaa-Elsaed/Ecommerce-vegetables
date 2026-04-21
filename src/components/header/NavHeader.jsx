@@ -41,7 +41,12 @@ const NavHeader = () => {
           <Link to="/venders">
             <span className="hover:text-green-600 cursor-pointer">Venders</span>
           </Link>
-          <span className="hover:text-green-600 cursor-pointer">MegaMenue</span>
+          <Link to="/mega">
+            <span className="hover:text-green-600 cursor-pointer">
+              MegaMenue
+            </span>{" "}
+          </Link>
+
           <Link to="/blog">
             <span className="hover:text-green-600 cursor-pointer">Blog</span>
           </Link>
@@ -76,8 +81,12 @@ const NavHeader = () => {
           <Link to="/venders">
             <span className="hover:text-green-600 cursor-pointer">Venders</span>
           </Link>
+          <Link to="/mega">
+            <span className="hover:text-green-600 cursor-pointer">
+              MegaMenue
+            </span>
+          </Link>
 
-          <span className="hover:text-green-600 cursor-pointer">MegaMenue</span>
           <Link to="/blog">
             <span className="hover:text-green-600 cursor-pointer">Blog</span>
           </Link>

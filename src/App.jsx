@@ -19,6 +19,7 @@ import About from "./pages/About/About";
 import Contact from "./pages/contact/Contact";
 import Blog from "./pages/blog/Blog";
 import Venders from "./pages/venders/Venders";
+import Mega from "./pages/megamenue/Mega";
 
 function App() {
   // 👇 حفظ السلة
@@ -63,6 +64,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/venders" element={<Venders />} />
+        <Route path="/mega" element={<Mega />} />
       </Routes>
     </div>
   );
